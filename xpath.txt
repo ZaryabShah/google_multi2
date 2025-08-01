@@ -1,0 +1,24 @@
+first = Storage Quote xpath = /html/body/div[1]/div[10]/div/div[2]/div[1]/div/div/div[2]/div/div/div[1]/button
+2nd = Your Location xpath = /html/body/div[1]/div[10]/div/div[2]/div[2]/div/div[2]/div[1]/div/div[1]/button
+2nd = At Units Storage Facility Xpath = /html/body/div[1]/div[10]/div/div[2]/div[2]/div/div[2]/div[1]/div/div[1]/button
+3rd  = zipcode input Xpath = /html/body/div[1]/div[10]/div/div[2]/div[4]/div/div[2]/form/div[1]/div[3]/div/input
+3rd = Date Needed drop down Xpath = /html/body/div[1]/div[10]/div/div[2]/div[4]/div/div[2]/form/div[4]/div[1]/div[1]/div[1]/div/div/input
+3rd = months drop down Xpath = /html/body/div[1]/div[10]/div/div[2]/div[4]/div/div[2]/form/div[4]/div[1]/div[1]/div[2]/div/select
+3rd = unit qty Xpath drop down = /html/body/div[1]/div[10]/div/div[2]/div[4]/div/div[2]/form/div[4]/div[1]/div[2]/div[2]/div/select
+3rd = unit type drop down total two Xpath = /html/body/div[1]/div[10]/div/div[2]/div[4]/div/div[2]/form/div[4]/div[1]/div[2]/div[1]/div/select
+3rd = next button Xpath = /html/body/div[1]/div[10]/div/div[2]/div[4]/div/div[2]/div/div[2]/button
+4th = after next first name required Xpath = /html/body/div[1]/div[10]/div/div[2]/div[5]/div/div[2]/form/div/div[1]/div/input
+4th = last name required Xpath = /html/body/div[1]/div[10]/div/div[2]/div[5]/div/div[2]/form/div/div[2]/div/input
+4th = Email Xpath required Xpath = /html/body/div[1]/div[10]/div/div[2]/div[5]/div/div[2]/form/div/div[3]/div/input
+4th = phone number required Xpath(without + sign) = /html/body/div[1]/div[10]/div/div[2]/div[5]/div/div[2]/form/div/div[4]/div/input
+4th = get your quote button Xpath  = /html/body/div[1]/div[10]/div/div[2]/div[5]/div/div[2]/div/div[2]/button
+4th = go back button xpath(not required normally) = /html/body/div[1]/div[10]/div/div[2]/div[5]/div/div[2]/div/div[1]/button
+
+
+it is present here
+<iframe src="https://www.quote.unitsportal.com/quoteorder/?companyKey=8f13d40d-b6b5-4f46-9146-a096cd0627e7&amp;parentUrl=https%3A%2F%2Funitsstorage.com%2F" width="100%" height="709px" class="ourElements ourIframe" style="position: absolute; top: 0px; left: 0px; background-color: white; display: flex; justify-content: center; align-items: center; z-index: 2; border: none; width: 100%; height: 709px; opacity: 1; transition: opacity 0.5s;" title="quote-unitsportal" data-uw-rm-iframe="gn"></iframe>
+an iframe within the website
+in this class
+<div class="banner-quote-form" id="units_quote_form" style="min-height: 575px;"><iframe src="https://www.quote.unitsportal.com/quoteorder/?companyKey=8f13d40d-b6b5-4f46-9146-a096cd0627e7&amp;parentUrl=https%3A%2F%2Funitsstorage.com%2F" width="100%" height="709px" class="ourElements ourIframe" style="position: absolute; top: 0px; left: 0px; background-color: white; display: flex; justify-content: center; align-items: center; z-index: 2; border: none; width: 100%; height: 709px; opacity: 1; transition: opacity 0.5s;" title="quote-unitsportal" data-uw-rm-iframe="gn"></iframe><div class="ourElements ourOverlay" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: white; display: flex; flex-direction: column; justify-content: flex-start; padding-top: 20%; align-items: center; z-index: 1; visibility: visible;"><div class="ourElements ourLoadingText" style="margin-bottom: 20px; font-size: 20px; color: rgb(0, 0, 0); text-align: center;">Loading Todays Quote Form...</div><div class="ourElements ourSpinner" style="border-width: 4px; border-style: solid; border-color: rgb(0, 153, 255) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1); border-image: initial; border-radius: 50%; width: 40px; height: 40px; animation: 1s linear 0s infinite normal none running spin;"></div></div></div>
+
+we have to wait for this new document iframe to appear and when it does we will do our task!
